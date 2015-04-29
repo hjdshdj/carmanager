@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">car_android</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="image_crop_inside">有图片时为crop没图片时为inside</string>
+    <string name="tw_home">首页</string>
+    <string name="tw_server">服务</string>
+    <string name="tw_account">我的</string>
+    <string name="tw_setting">设置</string>
+    <string name="tw_information">财讯</string>
+    <string name="home_one">界面统一管理</string>
+	<string name="home_two">fragment实现</string>
+	<string name="home_three">slidingpane实现</string>
+	<string name="share">分享</string>
+	<string name="share_weixin">分享微信</string>
+</resources>

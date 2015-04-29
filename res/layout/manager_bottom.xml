@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_manager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/common_bg"
+    android:paddingTop="2dip" >
+
+    <TextView
+        android:id="@+id/home_tv_manager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="2dip"
+        android:drawableTop="@drawable/tabs_home_p"
+        android:gravity="center_horizontal"
+        android:text="@string/tw_home"
+        android:textColor="@color/sharese"
+        android:textSize="13.3sp" />
+
+    <TextView
+        android:id="@+id/server_tv_manager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="2dip"
+        android:drawableTop="@drawable/tabs_server_n"
+        android:gravity="center_horizontal"
+        android:text="@string/tw_server"
+        android:textColor="@color/x7f7f7f"
+        android:textSize="13.3sp" />
+
+    <TextView
+        android:id="@+id/information_tv_manager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawablePadding="2dip"
+         android:layout_weight="1.0"
+        android:drawableTop="@drawable/tabs_info_n"
+        android:gravity="center_horizontal"
+        android:text="@string/tw_information"
+        android:textColor="@color/x7f7f7f"
+        android:textSize="13.3sp" />
+
+    <TextView
+        android:id="@+id/account_tv_manager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawablePadding="2dip"
+         android:layout_weight="1.0"
+        android:drawableTop="@drawable/tabs_account_n"
+        android:gravity="center_horizontal"
+        android:text="@string/tw_account"
+        android:textColor="@color/x7f7f7f"
+        android:textSize="13.3sp" />
+
+</LinearLayout>

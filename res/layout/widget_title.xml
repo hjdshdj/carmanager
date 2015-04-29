@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_bg"
+    android:paddingLeft="8dip"
+    android:paddingRight="8dip" >
+
+    <Button
+        android:id="@+id/t_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/title_back_c"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/t_left_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3.0dip"
+        android:layout_marginTop="7.5dip"
+        android:background="#00000000"
+        android:paddingLeft="24.0dip"
+        android:paddingRight="10.0dip"
+        android:src="@drawable/card_bag_dian"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/t_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="3dip"
+        android:background="@null"
+        android:drawablePadding="3dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="22.3sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/t_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:gravity="center_vertical"
+        android:textSize="15.0dip"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/t_right_pro"
+        style="?android:attr/progressBarStyleSmallTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="3dip"
+        android:background="#00000000"
+        android:visibility="gone" />
+
+</RelativeLayout>

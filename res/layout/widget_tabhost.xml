@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yu.car_android.ui.control.TabHostView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/car_tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dip"
+    android:layout_weight="1.0"
+    android:background="@color/common_bg" />

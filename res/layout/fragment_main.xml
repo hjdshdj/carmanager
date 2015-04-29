@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/fragment_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_new" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="@color/article_line" />
+
+        <View
+            android:id="@+id/tabs_line"
+            android:layout_width="wrap_content"
+            android:layout_height="2dip"
+            android:background="@color/sharese" />
+
+        <LinearLayout
+            android:id="@+id/tabs_rg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="2dip" >
+
+            <TextView
+                android:id="@+id/tabs_home_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:drawablePadding="2dip"
+                android:drawableTop="@drawable/tabs_home_p"
+                android:gravity="center_horizontal"
+                android:text="@string/tw_home"
+                android:textColor="@color/sharese"
+                android:textSize="13.3sp" />
+
+            <TextView
+                android:id="@+id/tabs_server_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:drawablePadding="2dip"
+                android:drawableTop="@drawable/tabs_server_n"
+                android:gravity="center_horizontal"
+                android:text="@string/tw_server"
+                android:textColor="@color/x7f7f7f"
+                android:textSize="13.3sp" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/tabs_information_tv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:drawablePadding="2dip"
+                    android:drawableTop="@drawable/tabs_info_n"
+                    android:gravity="center_horizontal"
+                    android:text="@string/tw_information"
+                    android:textColor="@color/x7f7f7f"
+                    android:textSize="13.3sp" />
+
+                <TextView
+                    android:id="@+id/point_tab2"
+                    android:layout_width="10dip"
+                    android:layout_height="10dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="13dip"
+                    android:layout_marginLeft="25dip"
+                    android:background="@drawable/card_bag_dian"
+                    android:paddingLeft="1.2dip"
+                    android:paddingRight="1.2dip"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/tabs_account_tv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="2dip"
+                    android:drawableTop="@drawable/tabs_account_n"
+                    android:gravity="center_horizontal"
+                    android:text="@string/tw_account"
+                    android:textColor="@color/x7f7f7f"
+                    android:textSize="13.3sp" />
+
+                <TextView
+                    android:id="@+id/point_tab3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginLeft="20dip"
+                    android:background="@drawable/message_red"
+                    android:gravity="center"
+                    android:paddingLeft="1.0dip"
+                    android:paddingRight="1.0dip"
+                    android:textColor="@android:color/white"
+                    android:textSize="10.0dip"
+                    android:visibility="visible" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

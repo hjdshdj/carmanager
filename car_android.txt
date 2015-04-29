@@ -1,0 +1,7 @@
+1.alia:CarManager
+2.passward:yujian
+3.gs:yucheng
+4.year:50
+car_androidd
+
+-keepclassmembers class * {    public <init>(org.json.JSONObject); } 
